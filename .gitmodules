@@ -1,0 +1,3 @@
+[submodule "Catch/Catch/thirdParty/spdlog"]
+	path = Catch/Catch/thirdParty/spdlog
+	url = https://github.com/gabime/spdlog.git

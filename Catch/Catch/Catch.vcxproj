@@ -53,6 +53,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>CATCH_PLATFORM_WINDOWS;CATCH_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Catch\thirdParty\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -67,6 +68,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Catch\thirdParty\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -76,11 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Catch\Log.cpp" />
     <ClCompile Include="src\Catch\Application.cpp" />
     <ClCompile Include="temp_files\Test.cpp" />
     <ClCompile Include="temp_files\Test.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Catch\Log.h" />
     <ClInclude Include="src\Catch.h" />
     <ClInclude Include="src\Catch\Application.h" />
     <ClInclude Include="src\Catch\Core.h" />
