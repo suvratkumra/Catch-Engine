@@ -51,7 +51,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CATCH_PLATFORM_WINDOWS;CATCH_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -76,8 +76,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp" />
-    <ClCompile Include="Test.h" />
+    <ClCompile Include="src\Catch\Application.cpp" />
+    <ClCompile Include="temp_files\Test.cpp" />
+    <ClCompile Include="temp_files\Test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Catch.h" />
+    <ClInclude Include="src\Catch\Application.h" />
+    <ClInclude Include="src\Catch\Core.h" />
+    <ClInclude Include="src\Catch\EntryPoint.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
