@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Core.h"
+#include <memory>
 
 namespace Catch {
 
@@ -15,7 +16,7 @@ namespace Catch {
 	};
 
 	// To be defined in a client
-	Application* CreateApplication();
+	std::unique_ptr<Application> CreateApplication();
 
 
 }
