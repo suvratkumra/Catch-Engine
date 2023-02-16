@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Desktop\CatchEngine\Catch-Engine\Catch\bin\Debug-x64\Catch\Catch.dll</FullPath>
+      <FullPath>D:\Personal\Catch Engine\Catch-Engine\Catch\bin\Debug-windows-x86_64\Catch\Catch.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Desktop\CatchEngine\Catch-Engine\Catch\bin\Debug-x64\Sandbox\Sandbox.exe</FullPath>
+      <FullPath>D:\Personal\Catch Engine\Catch-Engine\Catch\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

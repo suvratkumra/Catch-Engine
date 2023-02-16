@@ -12,7 +12,8 @@ extern std::unique_ptr<Catch::Application> Catch::CreateApplication();
 int main(int argc, char** argv)
 {
 	Catch::Log::Init();
-
+	CLIENT_ERROR("This message is from client");
+	CORE_INFO("This message is from Catch Engine");
 	//std::cout << "Welcome to Catch Engine\n";
 	auto app = Catch::CreateApplication();
 	app->Run();
