@@ -1,6 +1,12 @@
 # Catch Engine
 
-### As the game engine gets implemented this ReadMe will have more information in it. 
+## To build the engine and run it
+------
+> run the generateProjects.bat script
+> Open the Catch.vcx project
+> Ensure the startup project is set to Sandbox
+> Build and run
+
 
 
 Taking help from the tutorial series by TheCherno: https://www.youtube.com/@TheCherno
