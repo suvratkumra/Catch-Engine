@@ -2,10 +2,15 @@
 
 ## To build the engine and run it
 ------
-> run the generateProjects.bat script
+> Clone the repository 
+
+> Run generateProjects.bat script
 
 > Open the Catch.vcx project
+
 > Ensure the startup project is set to Sandbox
+
+
 > Build and run
 
 
